@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import ComingSoon from "@/components/ComingSoon";
 
 const Message = () => {
   return (
     <div>
-      Message
+      <ComingSoon />
     </div>
-  )
-}
+  );
+};
 
-export default Message
+export default Message;

@@ -2,7 +2,6 @@
 import ProfileCard from "@/components/ProfileCard";
 import UploadPost from "@/components/UploadPost";
 import { ContextData } from "@/providers/provider";
-import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import PostDisplay from "@/components/PostDisplay";
